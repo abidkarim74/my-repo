@@ -1,0 +1,1 @@
+export const likeIcon = "https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png";

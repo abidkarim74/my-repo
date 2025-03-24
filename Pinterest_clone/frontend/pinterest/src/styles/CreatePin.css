@@ -1,0 +1,98 @@
+.create-pin {
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.create-pin h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.create-pin form {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.image-holder {
+  width: 30%;
+  text-align: center;
+}
+
+.image-holder p {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+.pin-other-data p {
+  margin: 0.5rem 0 0.3rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.pin-other-data input,
+select {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.create-btn {
+  background-color: #e60023;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.create-btn:hover {
+  background-color: #c2001c;
+}
+
+@media (max-width: 768px) {
+  .create-pin {
+    width: 95%;
+  }
+
+  .create-pin h3 {
+    font-size: 1.5rem;
+  }
+
+  input[type="file"],
+  input,
+  select {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+
+  .create-btn {
+    font-size: 1rem;
+  }
+}

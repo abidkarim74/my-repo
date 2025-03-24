@@ -1,0 +1,86 @@
+/* Profile.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.userProfile {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.profile {
+
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid crimson;
+  margin-bottom: 15px;
+}
+
+.username {
+  font-size: 1rem;
+  color: gray;
+}
+
+.stats {
+  font-size: 0.9rem;
+  margin: 10px 0;
+  color: #555;
+}
+
+.bio {
+  font-style: italic;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.follow-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: crimson;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.follow-btn.following {
+  background: crimson;
+}
+
+.follow-btn:hover {
+  background: rgb(194, 58, 87);
+}
+
+/* Pinterest-style grid */
+.pinterest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}

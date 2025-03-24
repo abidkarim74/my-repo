@@ -1,0 +1,30 @@
+.home {
+  padding: 20px;
+  max-width: 1200px; /* Container width */
+  margin: 0 auto;
+}
+
+.posts {
+  column-count: 4; /* Number of columns */
+  column-gap: 16px; /* Spacing between columns */
+}
+
+.post {
+  margin-bottom: 16px;
+  display: flex;
+  width: 100%; /* Ensure width fits the column */
+}
+
+.post img {
+  display: block;
+  width: 100%; /* Fit the container width */
+  
+  height: auto; /* Maintain the image's aspect ratio */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for aesthetics */
+  transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.post:hover img {
+  transform: scale(1.03); /* Slight zoom on hover */
+}

@@ -1,0 +1,49 @@
+# ===========================
+# Git Ignore for Pinterest Clone (Django + React)
+# ===========================
+
+# --- General ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Python / Django ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+.env
+*.env
+venv/
+env/
+migrations/
+
+# --- Node.js / React ---
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/coverage/
+
+# --- Logs & Caches ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+*.lock
+
+# --- IDE / Editor Specific ---
+.vscode/
+.idea/
+*.iml
+
+# --- OS Generated Files ---
+*.swp
+*.swo
